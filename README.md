@@ -1,6 +1,6 @@
 # GitBookWeb
 
-> 预览 ➡️ [https://joeybling.github.io/myBook](https://joeybling.github.io/myBook)
+> 预览 ➡️ [https://githubwxw.github.io/GitBookWeb](https://githubwxw.github.io/GitBookWeb)
 
 
 **一直在努力,从未放弃**
@@ -20,7 +20,7 @@
 
 > **博客将不定期更新，请小伙伴们随时关注哦！**
 
-# 年少-有伟的技术博客 [https://joeybling.github.io/](https://joeybling.github.io/)
+# 年少-有伟的技术博客 [https://githubwxw.github.io/](https://githubwxw.github.io/)
 
 &#160;&#160;&#160;&#160;欢迎来到`年少-有伟`的技术博客，这里将深入探讨相关技术，包括行业动态，架构设计，设计模式，框架使用等。
 
