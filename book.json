@@ -24,8 +24,8 @@
 		},
 		"github-buttons": {
 			"buttons": [{
-				"user": "JoeyBling",
-				"repo": "myBook",
+				"user": "GitHubWxw",
+				"repo": "GitBookWeb",
 				"type": "star",
 				"size": "small",
 				"count": true
@@ -41,7 +41,7 @@
 			"linkedin": true,
 			"messenger": false,
 			"pocket": false,
-			"qq": false,
+			"qq": true,
 			"qzone": true,
 			"stumbleupon": false,
 			"twitter": false,
@@ -50,9 +50,9 @@
 			"weibo": true,
 			"whatsapp": false,
 			"all": [
-				"facebook", "google", "twitter",
+				"facebook", "google", "qq",
 				"weibo", "instapaper", "linkedin",
-				"pocket", "stumbleupon"
+				"pocket", "qzone"
 			]
 		},
 		"tbfed-pagefooter": {
@@ -67,8 +67,8 @@
 			"token": "a2e394cc17acd341b904fe377bb0d7c6"
 		},
 		"donate": {
-			"wechat": "/myBook/assets/weixin.png",
-			"alipay": "/myBook/assets/alipay.jpeg",
+			"wechat": "/GitBookWeb/assets/weixin.png",
+			"alipay": "/GitBookWeb/assets/alipay.jpeg",
 			"title": "",
 			"button": "打赏",
 			"alipayText": "支付宝打赏",

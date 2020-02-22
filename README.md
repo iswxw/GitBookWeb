@@ -8,14 +8,14 @@
 > 不浮躁，不偏激，不守旧，爱编程，爱后端，爱新技术，爱运动，爱旅行，执行力和学习能力都棒棒哒！
 
 # 简介
-- [个人博客](https://joeybling.github.io/)
-- [开源项目](https://joeybling.github.io/myBook)
-- [GitHub](https://github.com/JoeyBling)
-- [码云](https://gitee.com/zhousiwei)
-- [简书](https://www.jianshu.com/u/02cbf31a043a)
-- [CSDN](https://blog.csdn.net/qq_30930805)
-- [知乎](https://www.zhihu.com/people/joeybling)
-- [微博](http://weibo.com/jayinfo)
+- [个人博客](https://githubwxw.github.io/)
+- [开源项目](https://githubwxw.github.io/GitBookWeb)
+- [GitHub](https://github.com/GitHubWxw)
+- [码云](https://gitee.com/JavaStudyWxw)
+- [简书](https://www.jianshu.com/u/581abf4bad35)
+- [CSDN](https://blog.csdn.net/qq_41893274)
+- [博客园](https://www.cnblogs.com/2019wxw)
+- [微博](https://weibo.com/5951401438/profile?topnav=1&wvr=6)
 - **主要涉及技术：`Java后端开发`、`聚合支付`、`公众号开发`、`开源爱好者`、`Linux`**
 
 > **博客将不定期更新，请小伙伴们随时关注哦！**
