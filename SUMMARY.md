@@ -13,7 +13,7 @@
     * [一个会动的简历](opensource/anires.md)
 
 ## Part II - Java
-* [SpringBoot2.0更新记录](java/springboot2.md)
+* [SpringBoot2.0](java/Spring Boot.md)
 * [SpringBoot集成Druid不支持多条SQL](java/springboot_druid.md)
 * [SpringBoot设置默认首页](java/springboot_index.md)
 * [Ajax请求设置Type为Form-Data](java/ajax_type.md)
