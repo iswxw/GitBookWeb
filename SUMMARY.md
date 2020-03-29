@@ -1,9 +1,7 @@
 # Summary
 
 ## Part I - 开源项目
-* [Introduction](README.md)
 * [项目导航](introduction.md)
-* [联系方式](contact.md)
 * [我的博客](blog/README.md)
 * [开源项目](opensource/README.md)
     * [SpringBoot集成MyBatisPlus](opensource/springboot_mybatisplus.md)
@@ -13,10 +11,11 @@
     * [一个会动的简历](opensource/anires.md)
 
 ## Part II - Java
-* [SpringBoot2.0](java/Spring Boot.md)
-* [SpringBoot集成Druid不支持多条SQL](java/springboot_druid.md)
-* [SpringBoot设置默认首页](java/springboot_index.md)
-* [Ajax请求设置Type为Form-Data](java/ajax_type.md)
+* [SpringBoot2.0](java/SpringBoot/SpringBoot.md)
+    * [SpringBoot集成Druid不支持多条SQL](java/SpringBoot/springboot_druid.md)
+    * [SpringBoot设置默认首页](java/SpringBoot/springboot_index.md)
+    * [Ajax请求设置Type为Form-Data](java/SpringBoot/ajax_type.md)
+* [SpringCloud2.X](java/SpringCloud/springcloud.md)
 
 ## Part III - 前端开发笔记
 * [前端开发笔记](web/README.md)
