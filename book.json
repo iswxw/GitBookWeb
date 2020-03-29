@@ -108,11 +108,11 @@
 			}
 		},
 		"mygitalk": {
-			"clientID": "608e351b48e4d0a3a528",
-			"clientSecret": "c4427860abc972f5a3c206757e304654256d4892",
-			"repo": "myBook",
-			"owner": "JoeyBling",
-			"admin": ["JoeyBling"],
+			"clientID": "ce2658aafb7d0994fc26",
+			"clientSecret": "ae032c9ca6e1481f211edd508c5fbdfa72304b42",
+			"repo": "GitBookWeb",
+			"owner": "GitHubWxw",
+			"admin": ["GitHubWxw"],
 			"distractionFreeMode": false
 		}
 	},
