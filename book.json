@@ -10,7 +10,7 @@
 			"size": 2
 		},
 		"github": {
-			"url": "https://github.com/GitHubWxw"
+			"url": "https://github.com/"
 		},
 		"autotheme": {
 			"white": [9, 10, 11, 12, 13, 14, 15, 16, 17],
@@ -56,7 +56,7 @@
 			]
 		},
 		"tbfed-pagefooter": {
-			"copyright": "Copyright &copy <a href='https://githubwxw.github.io' target='_blank'>年少-有为</a> 2020",
+			"copyright": "Copyright &copy <a href='https://iswxw.github.io' target='_blank'>试剑江湖</a> 2020",
 			"modify_label": "修订时间：",
 			"modify_format": "YYYY-MM-DD HH:mm:ss"
 		},
@@ -96,7 +96,7 @@
 			}
 		},
 		"sitemap-general": {
-			"prefix": "https://githubwxw.github.io/GitBookWeb/"
+			"prefix": "https://iswxw.github.io/GitBookWeb/"
 		},
 		"favicon": {
 			"shortcut": "assets/images/favicon.ico",
@@ -128,9 +128,9 @@
 			"bottom": 56
 		}
 	},
-	"title": "年少-有为_开发笔记",
+	"title": "试剑江湖_开发笔记",
 	"description": "什么也没有，什么也不是...",
-	"author": "年少-有伟",
+	"author": "试剑江湖",
 	"language": "zh-hans",
 	"root": ".",
 	"structure": {
@@ -138,8 +138,8 @@
 	},
 	"links": {
 		"sidebar": {
-			"GitHub": "https://github.com/GitHubWxw",
-			"个人博客": "https://githubwxw.github.io"
+			"GitHub": "https://github.com/iswxw",
+			"个人博客": "https://iswxw.github.io"
 		}
 	}
 }
