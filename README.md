@@ -1,6 +1,6 @@
 # GitBookWeb
 
-> 预览 ➡️ [https://iswxw.github.io/GitBookWeb](https://githubwxw.github.io/GitBookWeb)
+> 预览 ➡️ [https://iswxw.github.io/GitBookWeb](https://iswxw.github.io/GitBookWeb)
 
 
 **一直在努力,从未放弃**
@@ -38,6 +38,10 @@ $npm install -g gitbook-cli
 $gitbook -V
 --- 列出本地所有的gitbook版本
 $gitbook ls
+
+# 安装插件
+$gitbook install
+
 
 ## 安装依赖
 $sh install_all_module.sh
