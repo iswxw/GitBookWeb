@@ -33,7 +33,10 @@
 ```bash
 # 安装gitbook
 $npm install gitbook -g
-$npm install -g gitbook-cli
+
+# 安装失败可以尝试+ --force  即：npm install -g gitbook-cli --force
+$npm install -g gitbook-cli 
+
 --- 如果没有安装gitbook,此命令会默认同时安装 GitBook
 $gitbook -V
 --- 列出本地所有的gitbook版本
