@@ -41,10 +41,14 @@ $gitbook ls
 
 # 安装插件
 $gitbook install
-
-
-## 安装依赖
+# 或安装插件
 $sh install_all_module.sh
+
+
+$gitbook init   # 初始化一本书
+$gitbook serve  # 本地启动服务查看效果
+$gitbook build  # 打包文档
+
 
 # 运行gitbook&发布
 $sh deploy.sh

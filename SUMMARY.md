@@ -1,6 +1,7 @@
 # Summary
 
 ## Part I - 开源项目
+* [Introduction](README.md)
 * [项目导航](introduction.md)
 * [我的博客](blog/README.md)
 * [开源项目](opensource/README.md)
