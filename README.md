@@ -7,7 +7,7 @@
 
 > 不浮躁，不偏激，不守旧，爱编程，爱后端，爱新技术，爱运动，爱旅行，执行力和学习能力都棒棒哒！
 
-# 简介
+## 简介
 - [个人博客](https://iswxw.github.io/)
 - [开源项目](https://iswxw.github.io/GitBookWeb)
 - [GitHub](https://github.com/iswxw)
@@ -20,7 +20,7 @@
 
 > **博客将不定期更新，请小伙伴们随时关注哦！**
 
-# 试剑江湖的技术博客 [https://iswxw.github.io/](https://iswxw.github.io/)
+## 试剑江湖的技术博客 [https://iswxw.github.io/](https://iswxw.github.io/)
 
 &#160;&#160;&#160;&#160;欢迎来到`试剑江湖`的技术博客，这里将深入探讨相关技术，包括行业动态，架构设计，设计模式，框架使用等。
 
@@ -31,7 +31,7 @@
 ## 安装运行
 
 ```bash
-# 安装gitbook
+# 安装gitbook,安装失败可以尝试+ --force  即：npm install gitbook -g --force
 $npm install gitbook -g
 
 # 安装失败可以尝试+ --force  即：npm install -g gitbook-cli --force
@@ -44,11 +44,8 @@ $gitbook ls
 
 # 安装插件
 $gitbook install
-# 或安装插件
-$sh install_all_module.sh
 
-
-$gitbook init   # 初始化一本书
+# $gitbook init   # 初始化一本书,如果已有，不必执行
 $gitbook serve  # 本地启动服务查看效果
 $gitbook build  # 打包文档
 
@@ -72,3 +69,7 @@ $git push
 | 微信 | 支付宝 |
 | :---: | :---: |
 | ![](/images/weixin.png) | ![](/images/alipay.jpeg) |
+
+
+## 安装相关问题
+1. [gitbook出现if (args[ii] == null) throw missingRequiredArg(ii 解决](https://blog.csdn.net/AntiO2/article/details/125964797) 
