@@ -24,7 +24,7 @@
 		},
 		"github-buttons": {
 			"buttons": [{
-				"user": "GitHubWxw",
+				"user": "iswxw",
 				"repo": "GitBookWeb",
 				"type": "star",
 				"size": "small",
@@ -111,8 +111,8 @@
 			"clientID": "ce2658aafb7d0994fc26",
 			"clientSecret": "ae032c9ca6e1481f211edd508c5fbdfa72304b42",
 			"repo": "GitBookWeb",
-			"owner": "GitHubWxw",
-			"admin": ["GitHubWxw"],
+			"owner": "iswxw",
+			"admin": ["iswxw"],
 			"distractionFreeMode": false
 		}
 	},

@@ -5,11 +5,12 @@ bui# Summary
 * [项目导航](introduction.md)
 * [我的博客](blog/README.md)
 * [开源项目](opensource/README.md)
-    * [SpringBoot集成MyBatisPlus](opensource/springboot_mybatisplus.md)
-    * [基于SpringBoot + Shiro + MyBatisPlus的权限管理框架](opensource/bootplus.md)
-    * [微信小程序+微信管理后台+微信用户前台](opensource/hqc_mp.md)
-    * [自制spring boot starter for fastjson](opensource/fastjson-spring-boot-starter.md)
-    * [一个会动的简历](opensource/anires.md)
+    * [基于微服务架构且前后端分离的购物商城](opensource/bs-cloud.md)
+    * [基于springboot和springcloud系列的应用实践](opensource/wxw-boot.md)
+    * [Go 深入浅出](opensource/wxw-go.md)
+    * [Java 技术书籍大全](opensource/wxw-ebook.md)
+    * [技术学习笔记](opensource/wxw-document.md)
+    * [一个会动的简历](opensource/resumes.md)
 
 ## Part II - Java
 * [SpringBoot2.0](java/boot/SpringBoot.md)

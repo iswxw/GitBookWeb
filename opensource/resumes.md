@@ -4,9 +4,8 @@ description: 一个会动的简历
 
 # 一个会动的简历
 
-> **GitHub：[https://github.com/JoeyBling/anires](https://github.com/JoeyBling/anires)**
+> **GitHub：[https://github.com/iswxw/resumes](https://github.com/iswxw/resumes)**
 
-> **码云：[https://gitee.com/zhousiwei/anires](https://gitee.com/zhousiwei/anires)**
 
 > **欢迎使用和Star支持，如使用过程中碰到问题，可以提出Issue，我会尽力完善**
 
@@ -15,11 +14,11 @@ description: 一个会动的简历
 
 > This is my resume
 
-[预览](https://zhousiwei.gitee.io/anires/index.html "https://zhousiwei.gitee.io/anires/index.html")
+[预览](https://iswxw.github.io/resumes/dist/index.html)
 
 ## 使用方法
 ```bash
-git clone https://gitee.com/zhousiwei/anires.git
+git clone https://github.com/iswxw/resumes.git
 cd anires
 npm install
 npm run dev
@@ -38,4 +37,4 @@ git push
 ```
 3. 开启 GitHub Pages 功能，把生成的目标文件`public/*`放在你的web服务器上。
 
-4. 访问地址：[https://your-github-username.github.io/anires/public](https://zhousiwei.gitee.io/anires/index.html "https://zhousiwei.gitee.io/anires/index.html")
+4. 访问地址：[https://your-github-username.github.io/anires/public](https://iswxw.github.io/resumes/dist/index.html)
