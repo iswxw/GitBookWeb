@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "aproba": "^2.0.0",
+    "gitbook-plugin-mygitalk": "^0.2.6",
+    "gitbook-plugin-sitemap-general": "^0.1.1",
+    "graceful-fs": "^4.2.10"
+  }
+}
