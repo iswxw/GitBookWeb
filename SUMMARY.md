@@ -16,7 +16,7 @@ bui# Summary
     * [SpringBoot集成Druid不支持多条SQL](java/boot/springboot_druid.md)
     * [SpringBoot设置默认首页](java/boot/springboot_index.md)
     * [Ajax请求设置Type为Form-Data](java/boot/ajax_type.md)
-* [SpringCloud2.X](java/cloud/cloud01.md)
+* [SpringCloud2.X](java/cloud/mycloud.md)
 
 ## Part III - 前端开发笔记
 * [前端开发笔记](web/README.md)

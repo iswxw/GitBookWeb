@@ -907,7 +907,7 @@ Spring Cloud Gateway 的工作原理跟 Zuul 的差不多，最大的区别就�
 
 创建一个 [Spring](http://c.biancheng.net/spring/) Boot 的 [Maven](http://c.biancheng.net/maven/) 项目，增加 [Spring Cloud](http://c.biancheng.net/spring_cloud/) Gateway 的依赖，代码如下所示。
 
-```java
+```xml
 <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -950,7 +950,7 @@ public class App {
 
 Gateway 的路由配置对 yml 文件支持比较好，我们在 resources 下建一个 application.yml 的文件，内容如下：
 
-```yml
+```yaml
 server:
   port: 2001
 spring:
@@ -967,7 +967,7 @@ spring:
 
 - 如果我们要支持多级 Path，配置方式跟 Zuul 中一样，在后面加上两个`*`号即可，比如：
 
-```yml
+```yaml
 - id: path_route2
 uri: http://c.biancheng.net
 predicates:
@@ -980,7 +980,7 @@ predicates:
 
 添加 Eureka Client 的依赖，代码如下所示。
 
-```java
+```xml
 <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -1008,7 +1008,7 @@ Zuul 默认会为所有服务都进行转发操作，我们只需要在访问路
 
 在 Spring Cloud Gateway 中当然也有这样的功能，通过配置即可开启，配置如下：
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:
@@ -1019,14 +1019,14 @@ spring:
 
 开启之后我们就可以通过地址去访问服务了，格式如下：
 
-```yml
+```yaml
 http://网关地址/服务名称(大写)/**
 http://localhost:2001/USER-SERVICE/user/get?id=1
 ```
 
 这个大写的名称还是有很大的影响，如果我们从 Zuul 升级到 Spring Cloud Gateway 的话意味着请求地址有改变，或者重新配置每个服务的路由地址，通过源码笔者发现可以做到兼容处理，再增加一个配置即可：
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:
@@ -1037,7 +1037,7 @@ spring:
 
 配置完成之后我们就可以通过小写的服务名称进行访问了，如下所示：
 
-```yml
+```yaml
 http://网关地址/服务名称(小写)/**
 http://localhost:2001/user-service/user/get?id=1
 ```
@@ -1046,7 +1046,7 @@ http://localhost:2001/user-service/user/get?id=1
 
 配置源码在 org.springframework.cloud.gateway.discovery.DiscoveryLocatorProperties 类中，代码所示。
 
-```yml
+```java
 @ConfigurationProperties("spring.cloud.gateway.discovery.locator")
 public class DiscoveryLocatorProperties {
     /**
@@ -1065,7 +1065,7 @@ public class DiscoveryLocatorProperties {
 
 Path 路由断言工厂接收一个参数，根据 Path 定义好的规则来判断访问的 URI 是否匹配。
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:
@@ -1078,13 +1078,13 @@ spring:
 
 如果请求路径为 /blog/detail/xxx，则此路由将匹配。也可以使用正则，例如 /blog/detail/** 来匹配 /blog/detail/ 开头的多级 URI。
 
-我们访问本地的网关：http://localhost：2001/blog/detail/36185 ，可以看到显示的是 http://c.biancheng.net/blog/detail/36185 对应的内容。
+我们访问本地的网关：http://localhost:2001/blog/detail/36185 ，可以看到显示的是 http://c.biancheng.net/blog/detail/36185 对应的内容。
 
 > 2）Query 路由断言工厂
 
 Query 路由断言工厂接收两个参数，一个必需的参数和一个可选的正则表达式。
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:
@@ -1097,13 +1097,13 @@ spring:
 
 如果请求包含一个值与 ba 匹配的 foo 查询参数，则此路由将匹配。bar 和 baz 也会匹配，因为第二个参数是正则表达式。
 
-测试链接：http://localhost：2001/?foo=baz。
+测试链接：http://localhost:2001/?foo=baz。
 
 > 3）Method 路由断言工厂
 
 Method 路由断言工厂接收一个参数，即要匹配的 HTTP 方法。
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:
@@ -1118,7 +1118,7 @@ spring:
 
 Header 路由断言工厂接收两个参数，分别是请求头名称和正则表达式。
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:
@@ -1174,7 +1174,7 @@ public class CheckAuthRoutePredicateFactory
 
 使用示例如下所示：
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:
@@ -1193,7 +1193,7 @@ GatewayFilter Factory 是 [Spring Cloud](http://c.biancheng.net/spring_cloud/) G
 
 Spring Cloud Gateway 中内置了很多过滤器工厂，直接采用配置的方式使用即可，同时也支持自定义 GatewayFilter Factory 来实现更复杂的业务需求。
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:
@@ -1238,7 +1238,7 @@ spring:
 
 SetStatus 过滤器工厂接收单个状态，用于设置 Http 请求的响应码。它必须是有效的 Spring Httpstatus（org.springframework.http.HttpStatus）。它可以是整数值 404 或枚举类型 NOT_FOUND。
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:
@@ -1334,7 +1334,7 @@ public class CheckAuthGatewayFilterFactory extends AbstractNameValueGatewayFilte
 
 使用如下：
 
-```yml
+```yaml
 filters：
     - CheckAuth=zhangsan,男
 ```
@@ -1398,7 +1398,7 @@ public class ExampleConfiguration {
 
 上面定义了 3 个 GlobalFilter，通过 @Order 来指定执行的顺序，数字越小，优先级越高。下面就是输出的日志，从日志就可以看出执行的顺序，如下所示。
 
-```cassandra
+```bash
 2019-8-26 16:08:52.406  INFO 55062 --- [ioEventLoop-4-1] c.c.gateway.config.ExampleConfiguration  : first pre filter
 2019-8-26 16:08:52.406  INFO 55062 --- [ioEventLoop-4-1] c.c.gateway.config.ExampleConfiguration  : second pre filter
 2019-8-26 16:08:52.407  INFO 55062 --- [ioEventLoop-4-1] c.c.gateway.config.ExampleConfiguration  : third pre filter
@@ -1857,3 +1857,20 @@ public enum HttpMethod {
 ```
 
 上述代码中具体参数含义如下所示。 exceptions：指定哪些异常需要进行重试逻辑。默认值是 java.io.IOException 和 org.springframework.cloud.gateway.support.TimeoutException。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
